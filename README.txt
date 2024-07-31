@@ -1,5 +1,6 @@
 Welcome to minの一生です official repository.
 This game written using PowerPoint 2016
+Language:简体中文
 
 Creator:minqwq, AMDISYES
 Sound effect:minqwq
