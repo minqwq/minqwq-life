@@ -20,7 +20,8 @@ while True:
         pygame.mixer.music.stop()
         os.system("python3 ./chapter/1/1/index.py")
     elif selectButton == "2":
-        print("目前只有一个没有子章节的大章，先不做")
+        os.system("python3 selectchapter.py")
+        pygame.mixer.music.stop()
     elif selectButton == "3":
         random.shuffle(randomExitText)
         randomExitTextPrinted = randomExitText[0]
