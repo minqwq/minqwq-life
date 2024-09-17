@@ -1,10 +1,3 @@
-Welcome to minの一生です official repository.  
-This game written using PowerPoint 2016  
-Language:简体中文  
-  
-Creator:minqwq, AMDISYES  
-Sound effect:minqwq  
-Music:minqwq  
-Background image:minqwq  
-Text:minqwq, AMDISYES, 114514开朗网友, 害怕の白菜  
+这里是 minの一生です 官方仓库。  
+本游戏代码基于 Python 3 语言，基于终端运行。  
 ![img111](/.readme/1723254362611.png)
