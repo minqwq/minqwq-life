@@ -2,7 +2,6 @@
 import os
 import sys
 import pygame
-import threading
 import time
 import tqdm
 pygame.mixer.init()
