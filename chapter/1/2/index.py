@@ -2,7 +2,6 @@
 import os
 import sys
 import pygame
-import threading
 import time
 import tqdm
 pygame.mixer.init()
@@ -153,4 +152,5 @@ input("")
 print("(飞上床)")
 input("")
 print("<minqwq> (闭眼)")
+pygame.mixer.music.stop()
 os.system("python3 ./chapter/1/3/index.py")
