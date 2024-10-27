@@ -21,7 +21,7 @@ print("<minqwq> ?")
 input()
 print("我从窗外看去。")
 input()
-print("我看到了两个人在用很强的魔法战斗。")
+print("我看到了两个人在用弹幕战斗。")
 input()
 se_sti1.play()
 print("<???> 啊啊啊啊啊啊！！！！！！")
@@ -47,7 +47,6 @@ while True:
         break
     else:
         print("Unknown user, please retry...(tips:minqwq)")
-print("* Player View *")
 print("Welcome to PY OS Improved!")
 print("tips:type 'mail'")
 print("autoexec.py | Line 1 | dialup")
@@ -59,10 +58,17 @@ while True:
     cmd = input("/ # ")
     if cmd == "mail":
         break
+    else:
+        print("Type 'mail'")
 print("emergency@genhospital.moe\nFrom:minqwq\nTitle:这里有一个女孩受伤了\nContent:\n位置:727号公路旁树林\n如需详细位置，请回邮。")
+input()
+print("* Player View *")
 input()
 print("<minqwq> 好，发送")
 input()
 print("伴随着一阵刺耳的拨号上网音，邮件成功发出去了。")
 input()
+print("另外说一下，因为这是幻想乡，所以因为弹幕受伤的不在少数")
+input()
 print("接下来就是等着了。")
+input()
