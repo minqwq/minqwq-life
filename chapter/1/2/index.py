@@ -76,7 +76,7 @@ print("我们俩随后立即摆正坐姿")
 input("")
 print("少女上课中...")
 for uwu2 in tqdm.tqdm(range(45)):
-    time.sleep(0.25)
+    time.sleep(0.05)
 pygame.mixer.music.load("./music/Night_of_code_--_minqwq.mp3")
 print("音乐:Night of code | by minqwq")
 pygame.mixer.music.play()
@@ -95,7 +95,7 @@ input("")
 print("于是我还是打算去来一杯咖啡。")
 input("")
 print("少女黑夜行走中...")
-for uwu3 in tqdm.tqdm(range(120)):
+for uwu3 in tqdm.tqdm(range(60)):
     time.sleep(0.1)
 print("<minqwq> 终于到地方了...")
 input("")
@@ -117,7 +117,7 @@ print("<minqwq> 来一杯多糖咖啡")
 input("")
 print("<Safari> 好")
 print("福瑞制咖啡中...")
-for uwu4 in tqdm.tqdm(range(2012)):
+for uwu4 in tqdm.tqdm(range(800)):
     time.sleep(0.01)
 print("<Safari> 好了")
 input("")
@@ -133,7 +133,7 @@ print("<Safari> 那肯定，上一任老板亲自教我的")
 input("")
 print("(坐在店铺的某个角落里开始饮用)")
 print("少女饮咖中...")
-for uwu5 in tqdm.tqdm(range(2085)):
+for uwu5 in tqdm.tqdm(range(680)):
     time.sleep(0.01)
 print("<minqwq> 那我先走了，明天虽然不上学但是有代码没写")
 input("")
@@ -143,7 +143,7 @@ print("现在处于 Another View 状态")
 print("<Safari> 又无聊了...")
 input("")
 print("现在处于 Player View 状态")
-for uwu6 in tqdm.tqdm(range(1000)):
+for uwu6 in tqdm.tqdm(range(520)):
     time.sleep(0.01)
 print("<minqwq> ...累死了。")
 input("")
