@@ -51,7 +51,11 @@ print("Welcome to PY OS Improved!")
 print("tips:type 'mail'")
 print("autoexec.py | Line 1 | dialup")
 se_dialup.play()
-time.sleep(16)
+print("Network connecting")
+for i in range(16):
+    print(".", end = "", flush = True)
+    time.sleep(1)
+# time.sleep(16)
 print("Welcome to the Internet!")
 print("You dont have any new mail received.")
 while True:
