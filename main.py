@@ -14,19 +14,19 @@ random.shuffle(titleMusic_fileLocation)
 pygame.mixer.init()
 pygame.mixer.music.load(titleMusic_fileLocation[0])
 pygame.mixer.music.play()
-print("minqwq's life | minqwq 的一生 | (v0.3) by minqwq 和他的几个朋友")
-print("[" + color.Fore.LIGHTRED_EX + "!" + color.Fore.LIGHTWHITE_EX + "] 早期开发阶段，不代表正式后效果。")
-print("请选择选项...")
-print("\n1:新的一生")
-print("2:选择特定章节(不会做保存功能)")
-print("3:睡觉(退出)")
 space = 0
 while True:
+    print("minqwq's life | minqwq 的一生 | (v0.3) by minqwq 和他的几个朋友")
+    print("[" + color.Fore.LIGHTRED_EX + "!" + color.Fore.LIGHTWHITE_EX + "] 早期开发阶段，不代表正式后效果。")
+    print("请选择选项...")
+    print("\n1:新的一生")
+    print("2:选择特定章节(不会做保存功能)")
+    print("3:睡觉(退出)")
     selectButton = input("> ")
     if selectButton == "1":
         pygame.mixer.music.stop()
         if isWindows == True:
-            os.system("python3 .\chapter\1\1\index.py")
+            os.system("python3 chapter\\1\\1\\index.py")
         elif isWindows == False:
             os.system("python3 ./chapter/1/1/index.py")
     elif selectButton == "2":
