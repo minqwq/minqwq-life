@@ -13,7 +13,7 @@ def printa(text):
 pygame.mixer.init()
 pygame.mixer.music.load("./music/You,_and_nothing,_but_you_still_happy_--_minqwq.mp3")
 pygame.mixer.music.play()
-printa("幻想乡，某座山上 | 2017-04-08")
+print("幻想乡，某座山上 | 2017-04-08")
 input("") # 这个东西表示"按下enter键显示下一句" | minqwq | 2024-09-12
 printa("<???> 抱歉----麻烦能打扰一下吗？")
 input("")
