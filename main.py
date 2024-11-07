@@ -3,15 +3,31 @@ import colorama as color
 import os
 import sys
 import pygame
+import time
+def slowprint(text):
+    for j in text:
+        print(j, end="", flush=True)
+        time.sleep(0.25)
+    print()
 winorlin = input("Windows or Linux?\n1:Windows\n2:Linux\n> ")
 if winorlin == "1":
     isWindows = True
 elif winorlin == "2":
     isWindows = False
+def clearScreen():
+    if isWindows == True:
+        os.system("cls")
+    elif isWindows == False:
+        os.system("clear")
+pygame.mixer.init()
+pygame.mixer.music.load("./se/init.mp3")
+pygame.mixer.music.play()
+clearScreen()
+slowprint("Flandre Studio & 0x1c Studio")
+time.sleep(2)
 randomExitText = ["<Yukari> 再见...希望我们还能再见。", "<Melted> 再见", "<minqwq> by", "<白九> 晚安", "<Rick Astley> Say goodbye", "<mcpe> 没事，再见"]
 titleMusic_fileLocation = ["./music/title_believe.mp3", "./music/BACKTOTHESID.wav"]
 random.shuffle(titleMusic_fileLocation)
-pygame.mixer.init()
 pygame.mixer.music.load(titleMusic_fileLocation[0])
 pygame.mixer.music.play()
 space = 0
