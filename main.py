@@ -7,8 +7,9 @@ import time
 def slowprint(text):
     for j in text:
         print(j, end="", flush=True)
-        time.sleep(0.1071)
+        time.sleep(0.22)
     print()
+    print("\r")
 winorlin = input("Windows or Linux?\n1:Windows\n2:Linux\n> ")
 if winorlin == "1":
     isWindows = True
@@ -20,14 +21,19 @@ def clearScreen():
     elif isWindows == False:
         os.system("clear")
 pygame.mixer.init()
-pygame.mixer.music.load("./music/main.mp3")
-pygame.mixer.music.play()
 clearScreen()
+pygame.mixer.music.load("./se/init.mp3")
+pygame.mixer.music.play()
 slowprint("Flandre Studio & 0x1c Studio")
+clearScreen()
+print("Flandre Studio & 0x1c Studio", end="\r")
+slowprint(color.Fore.LIGHTRED_EX + "Flandre Studio & 0x1c Studio" + "\033[0m")
 time.sleep(2.88)
 clearScreen()
 randomExitText = ["<Yukari> 再见...希望我们还能再见。", "<Melted> 再见", "<minqwq> by", "<白九> 晚安", "<Rick Astley> Say goodbye", "<mcpe> 没事，再见"]
 space = 0
+pygame.mixer.music.load("./music/main.mp3")
+pygame.mixer.music.play()
 while True:
     print("minqwq's life | minqwq 的一生 | (v0.3) by minqwq 和他的几个朋友")
     print("[" + color.Fore.LIGHTRED_EX + "!" + color.Fore.LIGHTWHITE_EX + "] 早期开发阶段，不代表正式后效果。")
@@ -51,3 +57,5 @@ while True:
         print(randomExitTextPrinted)
         break
         sys.exit()
+    else:
+        clearScreen()

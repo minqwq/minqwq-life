@@ -1,4 +1,3 @@
 tqdm
-threading
-time
 pygame
+colorama
