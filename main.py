@@ -4,6 +4,7 @@ import os
 import sys
 import pygame
 import time
+isWindows = "null"
 def slowprint(text):
     for j in text:
         print(j, end="", flush=True)
@@ -36,7 +37,7 @@ pygame.mixer.music.load("./music/main.mp3")
 pygame.mixer.music.play()
 while True:
     print("minqwq's life | minqwq 的一生 | (v0.3) by minqwq 和他的几个朋友")
-    print("[" + color.Fore.LIGHTRED_EX + "!" + color.Fore.LIGHTWHITE_EX + "] 早期开发阶段，不代表正式后效果。")
+    print("[" + color.Fore.LIGHTRED_EX + "!" + "\033[0m" + "] 早期开发阶段，不代表正式后效果。")
     print("请选择选项...")
     print("\n1:新的一生")
     print("2:选择特定章节(不会做保存功能)")
