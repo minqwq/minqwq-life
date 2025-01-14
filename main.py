@@ -46,9 +46,9 @@ while True:
     if selectButton == "1":
         pygame.mixer.music.stop()
         if isWindows == True:
-            os.system("python chapter\\1\\1\\index.py")
+            os.system("python chapter\\1\\c1s1.py")
         elif isWindows == False:
-            os.system("python ./chapter/1/1/index.py")
+            os.system("python ./chapter/1/c1s1.py")
     elif selectButton == "2":
         pygame.mixer.music.stop()
         os.system("python selectchapter.py")
