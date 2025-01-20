@@ -40,15 +40,16 @@ while True:
     print("[" + color.Fore.LIGHTRED_EX + "!" + "\033[0m" + "] 早期开发阶段，不代表正式后效果。")
     print("请选择选项...")
     print("\n1:新的一生")
-    print("2:选择特定章节(不会做保存功能)")
-    print("3:睡觉(退出)")
+    print("2:从梦中醒来(不会做保存功能)")
+    print("3:进入梦境(退出)")
+    print("4:怎么玩(输入4然后按下Enter)")
     selectButton = input("> ")
     if selectButton == "1":
         pygame.mixer.music.stop()
         if isWindows == True:
-            os.system("python chapter\\1\\c1s1.py")
+            os.system("python chapter\\c1.py")
         elif isWindows == False:
-            os.system("python ./chapter/1/c1s1.py")
+            os.system("python ./chapter/c1.py")
     elif selectButton == "2":
         pygame.mixer.music.stop()
         os.system("python selectchapter.py")
@@ -58,5 +59,13 @@ while True:
         print(randomExitTextPrinted)
         break
         sys.exit()
+    elif selectButton == "4":
+        print("编号选择输入数字并按下回车\n游戏中显示下一句按Enter\n退出游戏按Ctrl+C组合键")
+        print("\n按Enter继续...")
+        input()
+        if isWindows == True:
+            os.system("cls")
+        elif isWindows == False:
+            os.system("clear")
     else:
         clearScreen()
